@@ -1,0 +1,64 @@
+{
+  "sanPham": [
+    {
+      "tenSP": "Kim kẹp nhựa ",
+      "giaSP": "50000",
+      "soLuongTon": "100",
+      "moTaSP": "Kim kẹp nhựa màu Toàn Phát - Là sản phẩm kim kẹp đầu tam giác, có bọc nhựa nhiều màu, sử dụng để kẹp các tờ giấy gọn gàng, ngăn nắp trong văn phòng",
+      "namSX": "2021",
+      "slDaBan": "5",
+      "loaiSP": "Kẹp giấy",
+      "nhaCungCap": "Toàn Phát",
+      "dsAnhSP": [
+        "../assets/img/Slider/slide4.jpg",
+        "../assets/img/Slider/slide4.jpg"
+      ],
+      "id": 1
+    },
+    {
+      "tenSP": "Kim kẹp nhựa màu Toàn Phát (Hộp)",
+      "giaSP": "50000",
+      "soLuongTon": "100",
+      "moTaSP": "Kim kẹp nhựa màu Toàn Phát - Là sản phẩm kim kẹp đầu tam giác, có bọc nhựa nhiều màu, sử dụng để kẹp các tờ giấy gọn gàng, ngăn nắp trong văn phòng",
+      "namSX": "2021",
+      "slDaBan": "15",
+      "loaiSP": "Kẹp giấy",
+      "nhaCungCap": "Toàn Phát",
+      "dsAnhSP": [
+        "../assets/img/Slider/slide4.jpg",
+        "../assets/img/Slider/slide4.jpg"
+      ],
+      "id": 2
+    },
+    {
+      "tenSP": "Kim kẹp nhựa màu Toàn Phát (Hộp)",
+      "giaSP": "10000",
+      "soLuongTon": "100",
+      "moTaSP": "Kim kẹp nhựa màu Toàn Phát - Là sản phẩm kim kẹp đầu tam giác, có bọc nhựa nhiều màu, sử dụng để kẹp các tờ giấy gọn gàng, ngăn nắp trong văn phòng",
+      "namSX": "2021",
+      "slDaBan": "20",
+      "loaiSP": "Kẹp giấy",
+      "nhaCungCap": "Toàn Phát",
+      "dsAnhSP": [
+        "../assets/img/Slider/slide4.jpg",
+        "../assets/img/Slider/slide4.jpg"
+      ],
+      "id": 3
+    },
+    {
+      "tenSP": "Kim kẹp nhựa màu Toàn Phát (Hộp)",
+      "giaSP": "15000",
+      "soLuongTon": "100",
+      "moTaSP": "Kim kẹp nhựa màu Toàn Phát - Là sản phẩm kim kẹp đầu tam giác, có bọc nhựa nhiều màu, sử dụng để kẹp các tờ giấy gọn gàng, ngăn nắp trong văn phòng",
+      "namSX": "2021",
+      "slDaBan": "3",
+      "loaiSP": "Kẹp giấy",
+      "nhaCungCap": "Toàn Phát",
+      "dsAnhSP": [
+        "../assets/img/Slider/slide4.jpg",
+        "../assets/img/Slider/slide4.jpg"
+      ],
+      "id": 4
+    }
+  ]
+}
