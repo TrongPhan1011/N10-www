@@ -31,6 +31,13 @@
     font-size: 20px;
 
 }
+.tk-bg{
+    background-color: white;
+}
+
 .sub-sanpham a:hover {
     color:  #F4F0EA;
+}
+.breadcrumb{
+    background-color: rgb(196, 196, 196,0.2);
 }
