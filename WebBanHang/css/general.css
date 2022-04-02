@@ -131,7 +131,23 @@ html {
     
 }
 
+/* Thanh chuyen trang*/
+.pagin{
+    color: #535768;
+    background-color: #FFFFFE;
+    border: 1px solid rgb(253, 185, 188);
+    box-shadow: -2px 3px 5px rgba(0, 0, 0,0.2),
+                3px -5px 5px rgba(255, 255, 255,1);
 
+}
+.pagin-active{
+    color: #535768;
+    background-color: rgb(253, 185, 188);
+    border: 1px solid rgb(253, 185, 188);
+    box-shadow: -2px 3px 5px rgba(0, 0, 0,0.2),
+                3px -5px 5px rgba(255, 255, 255,1);
+
+}
 
 
 
