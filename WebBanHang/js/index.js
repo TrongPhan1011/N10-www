@@ -26,16 +26,23 @@ function renderSanPham(viTri,listSanPham){
                     <img class="card-img-top vpp-bd-radius-top" src="${sanPham.dsAnhSP[0]}" alt="Card image" style="width:100%; height: 9vw;">
                 </div>
                 <div class="card-body p-0">
-                <a href="#" class="card-title vpp-link"><h5>${sanPham.tenSP}</h5></a>
-                <p class="card-text text-danger fs-5 fw-bold">${giaSP}</p>
-                <a href="#" class="btn vpp-btn vpp-bd-btn">Xem chi tiết</a>
+                    <div class="p-2" style ="min-height: 70px">
+                        <a href="#" class="card-title vpp-link"><h5>${sanPham.tenSP}</h5></a>
+                    
+                    </div>
+                    <p class="card-text text-danger fs-5 fw-bold">${giaSP}</p>
+                    <a href="#" class="btn vpp-btn vpp-bd-btn">Xem chi tiết</a>
                 </div>
             </div>
         </div>
         `
     });
-
-    viTri.innerHTML = render.join('');
+    
+    let renderString ='';
+    for(let i =0; i< 4; i++){
+        renderString += ' '+ render[i];
+    }
+    viTri.innerHTML = renderString;
 
     
 }

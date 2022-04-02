@@ -8,11 +8,12 @@ html {
     font-size: 14px;
     overflow-x: hidden;
     font-family: Arial, sans-serif,Arial, Helvetica, sans-serif;
+    
 }
 
 /* background */
 .vpp-bg-header{
-    background-color: #F4F0EA;
+    background-color: #f4f0ea3d;
 }
 
 .vpp-bg-pink {
@@ -39,7 +40,11 @@ html {
     color: #535768;
 }
 .vpp-text-pink{
-    color: rgb(253, 185, 188) ;
+    color: rgb(253, 185, 188) ;   
+}
+
+.vpp-text-decoration{
+    text-decoration: underline !important;
 }
 
 /* border */
@@ -96,12 +101,12 @@ html {
 }
 .vpp-btn:hover {
     color: #FFFFFE;
-    background-color: rgba(253, 185, 188,0.9);
+    
 
 }
 .vpp-btn-hover:hover{
     color: #FFFFFE;
-    background-color: #535768;
+    
 }
 
 /* dropdown */
@@ -125,9 +130,7 @@ html {
     padding: 5px;
     
 }
-.card:hover .img-sp  {
-    padding: 0px;
-}
+
 
 
 
