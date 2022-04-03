@@ -26,6 +26,17 @@ html {
     background-color: rgb(253, 185, 188);
 }
 
+.vpp-bg-dark {
+    background-color: rgb(83, 87, 104);
+}
+.vpp-bg-light-dark {
+    background-color: #F3F3F3;
+}
+
+
+
+
+
 /* link */
 .vpp-link {
     color: #535768;
