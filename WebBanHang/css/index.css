@@ -10,7 +10,6 @@
     width: 100%;
     height: 14vw;
 }
-
 .slide-block-sanpham:hover .sub-sanpham {
     display: flex !important;
 }
