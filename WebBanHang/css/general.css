@@ -119,6 +119,15 @@ html {
     color: #FFFFFE;
     
 }
+.vpp-btn-danhan{
+    color: #535768;
+}
+.vpp-btn-huydon{
+    color: #ff0000;
+    background-color:#FFFFFE;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 10px;
+}
 
 /* dropdown */
 .vpp-dropdown:hover .dropdown-menu {
@@ -141,6 +150,11 @@ html {
     padding: 5px;
     
 }
+.menudanhmuc > li> a{
+    text-decoration: none;
+    color: #535768;
+}
+
 
 /* Thanh chuyen trang*/
 .pagin{
