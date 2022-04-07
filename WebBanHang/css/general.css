@@ -119,10 +119,10 @@ html {
     color: #FFFFFE;
     
 }
-.btn-danhan{
-    color: #FFFFFE;
+.vpp-btn-danhan{
+    color: #535768;
 }
-.btn-huydon{
+.vpp-btn-huydon{
     color: #ff0000;
     background-color:#FFFFFE;
     border: 1px solid rgb(255, 0, 0);
