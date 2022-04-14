@@ -59,13 +59,17 @@ html {
 }
 
 /* border */
-.vpp-bd-radius {
+.vpp-bd-radius-text {
     
     border-color: rgba(255, 255, 255,0);
     border-bottom: rgba(253, 185, 188,1) solid 3px;
 }
 .vpp-bd-1 {
     border: 1px solid rgb(253, 185, 188);
+}
+.vpp-bd-radius {
+    border-radius: 10px;
+    border-color: rgba(255, 255, 255,0);
 }
 .vpp-bd-btn {
     border-radius: 10px;
