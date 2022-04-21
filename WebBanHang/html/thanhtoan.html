@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="../css/general.css">
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/chi-tiet-sp.css">
+    <link rel="stylesheet" href="../css/dangKy.css">
+
 </head>
 
 <body>
@@ -149,43 +151,81 @@
             </div>
         </div>
         <div class="  vpp-bg-light-dark ps-2 ">
-            <a href="#" class="vpp-link">Trang chủ</a>/Giỏ hàng
+            <a href="#" class="vpp-link">Trang chủ</a>/ <a href="#" class="vpp-link">Giỏ hàng</a>/Đặt hàng
         
          </div>
         <div id="container">
             <div id="container-content" class=" p-3 ps-5 pe-5">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                             <th scope="col">Sản phẩm</th>
-                             <th scope="col" class="text-center">Số lượng</th>
-                                <th scope="col">Giá</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row"> MacBook</th>
-                                <td class="text-center d-flex justify-content-center">
-                                    <form action="#" class="w-25">
-                                        <div class="input-group ">
-                                            <button type="button" class=" btn btn-danger me-2 vpp-btn-sp ">
-                                                <i class="fas fa-minus"></i>
-                                            </button>
-                                            <input type="text" class="form-control text-center p-0" value="0">
-                                            <button type="button" class="btn btn-success ms-2 vpp-btn-sp ">
-                                                <i class="fas fa-plus"></i>
-                                            </button>
-                                        </div>
-        
-                                    </form>
-                                </td>
-                                <td>30.000.000</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <div id="container-content-footer"  class=" text-center p-3 ps-5 pe-5">
-                        <button type="button" class="btn col-3   mt-4 border-warning btn-danger">Mua ngay</button>
-                    </div>
+                <div class="row mb-4">
+                    <h1>Thông tin khách hàng</h1>
+                </div>
+    
+                  <div class="row">
+                      <div class="col-lg-4 " style="border-right: 3px solid rgb(253, 185, 188);">
+                        <form action="#">
+                            <label for="id-thanhtoan-tenkhachhang"><h4> Tên khách hàng:</h4></label>
+                            <input type="text" class="form-control vpp-bd-radius-text mt-1 mb-4" placeholder="Nhập tên khách hàng" id="id-thanhtoan-tenkhachhang"/>
+                            <label for="id-thanhtoan-sodienthoai"><h4> Số điện thoại:</h4></label>
+                            <input type="text" class="form-control vpp-bd-radius-text mt-1 mb-4" placeholder="Nhập số điện thoại" id="id-thanhtoan-sodienthoai"/>
+                            <label for="id-thanhtoan-diachi"><h4> Địa chỉ:</h4></label>
+                            <input type="text" class="form-control vpp-bd-radius-text mt-1 mb-4" placeholder="Nhập địa chỉ giao hàng" id="id-thanhtoan-diachi"/>
+                        </form>
+                      </div>
+                      <div class="col-lg-5" style="border-right: 3px solid rgb(253, 185, 188);" >
+                        <table class="table ">
+                   
+                            <thead style="border-bottom: 3px solid rgb(253, 185, 188);">
+                                <tr>
+                                 <th scope="col">Sản phẩm</th>
+                                 <th scope="col">Giá</th>
+                                   <th scope="col">Số lượng</th>
+                                <th scope="col">Thành tiền</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row"> MacBook</th>
+                                    <td>30.000.000</td>
+                                    <th scope="row">2</th>
+                                    <th scope="row">60.000.000</th>
+                                </tr>
+                            </tbody>
+                        </table>
+                      </div>
+                      <div class="col-3">
+                          <div class="row mb-0">
+                              <br>
+                          </div>
+                          <div class="row mb-0">
+                              <div class="col-6" style=><h6><b>Tổng tiền</b> </h6></div>
+                              <div class="col-6" style="color: red;"><h6><b>60.000.000</b></h6></div>
+                          </div>
+                         
+                            <div class="row mb-0">
+                                 <br>
+                            </div>
+                          <div class="row">
+                            <div class="col-6" style=><h6><b>Giao hàng</b> </h6></div>
+                            <div class="col-6" ><i>Miễn phí ship</i></div>
+                        </div>
+
+
+                      <div class="row mb-0">
+                        <br>
+                     </div>
+                        <div class="row">
+                        <div class="col-6" style=><h6><b>Thành tiền</b> </h6></div>
+                        <div class="col-6" style="color: red;"><h6><b>60.000.000</b></h6></div>
+                        </div>
+
+                        <div class="row mb-0">
+                            <br>
+                         </div>
+                         <div id="container-content-footer"  class=" text-center p-3 ps-5 pe-5">
+                            <button type="button" class="btn col-10   mt-4 border-warning btn-danger">Đặt hàng</button>
+                        </div>
+                  </div>
+                    
                     
                 
                 
